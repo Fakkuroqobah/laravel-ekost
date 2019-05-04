@@ -1,0 +1,63 @@
+.introduction {
+    height: auto;
+    background-color: #fff;
+}
+.rpl-intro {
+    width: 40%;
+    margin: auto;
+}
+.rpl-judul-intro {
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(65, 64, 64);
+}
+.rpl-p-intro {
+    color: #000000;
+}
+.dropdown-menu.show {
+    top: 15px !important;
+    border-radius: 0;
+}
+
+/* fitur */
+.features {
+    height: auto;
+    padding: 40px;
+    background: linear-gradient(to right, #3F70CE, #66C8F5);
+    color: #fff;
+}
+.rpl-judul-fitur {
+    text-align: center;
+}
+.rpl-card {
+    width: 20%;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+}
+.rpl-card-judul {
+    font-size: 1.2rem;
+}
+.rpl-card-body {
+    font-weight: bold;
+    color: #fff;
+}
+i.rpl-icon-fitur {
+    font-size: 2rem;
+}
+div.rpl-bg-white {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.rpl-btn-hubungi {
+    background-color: salmon;
+    color: white;
+    font-weight: bold;
+}
+
+/* PEMESANAN */
+table.table tr th, table.table tr td {
+    text-align: center;
+    vertical-align: middle;
+}
