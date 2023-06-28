@@ -10,6 +10,11 @@
 
     <link rel="stylesheet" href="css/auth.css">
     <script src="{{ asset('js/sweetalert.min.js') }}"></script>
+    <style>
+        body {
+            background: linear-gradient(to right, #3F70CE, #66C8F5);
+        }
+    </style>
 </head>
 <body>
 
