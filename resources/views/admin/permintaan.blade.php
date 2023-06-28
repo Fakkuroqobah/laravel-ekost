@@ -51,5 +51,5 @@
 		$(document).ready(function() {
 			$('#dataPermintaan').DataTable();
 		});
-	</script>	
+	</script>
 @endsection
