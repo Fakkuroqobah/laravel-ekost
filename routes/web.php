@@ -41,7 +41,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 // pemilik kos
-Route::middleware(['role'])->group(function () {
+// Route::middleware(['role'])->group(function () {
     Route::get('/dashboard', 'PemilikController@index')->name('dash.pemilik');
     Route::get('/tambah-kos', 'PemilikController@getKos')->name('get.kos');
     Route::post('/tambah-kos', 'PemilikController@postKos')->name('post.kos');
@@ -55,13 +55,13 @@ Route::middleware(['role'])->group(function () {
     Route::get('/booking-kos', 'PemilikController@booking')->name('get.booking.kos');
     Route::get('/aktiv-booking-kos/{id}', 'PemilikController@aktivBooking')->name('aktiv.booking');
     Route::delete('/hapus-booking-kos/{id}', 'PemilikController@hapusBooking')->name('delete.booking');
-});
+// });
 
 // admin
-Route::middleware(['role'])->group(function () {
+// Route::middleware(['role'])->group(function () {
     Route::get('/admin', 'AdminController@index')->name('dash.admin');
     Route::get('/admin/permintaan', 'AdminController@permintaan')->name('permintaan');
     Route::get('/admin/users', 'AdminController@users')->name('admin.users');
     Route::get('/admin/aktifasi/{id}', 'AdminController@aktifasi')->name('aktifasi');
     Route::delete('/hapus-user/{id}', 'AdminController@hapusUser')->name('delete.user');
-});
+// });

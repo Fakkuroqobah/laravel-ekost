@@ -39,7 +39,7 @@
                         @endif
 
                         @if ( $row->bukti === null )
-                            <button class="btn btn-success btn-sm btn-block" data-toggle="modal" data-target="#hubungi{{ $row->id_booking }}">Checkout</button>
+                            <button class="btn btn-success btn-sm btn-block mb-2" data-toggle="modal" data-target="#hubungi{{ $row->id_booking }}">Checkout</button>
                         @endif
 
                         @if ( $row->bukti !== null )

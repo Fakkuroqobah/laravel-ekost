@@ -10,7 +10,8 @@ class AdminController extends Controller
 {
     public function index ()
     {
-    	return view('admin.master');
+    	$data = Pemilik_kos::orderBy('id', 'desc')->get();
+    	return view('admin.permintaan', compact('data'));
     }
 
     public function permintaan ()

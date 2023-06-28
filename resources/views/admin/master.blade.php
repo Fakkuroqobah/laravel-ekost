@@ -36,9 +36,6 @@
                 <ul class="nav navbar-nav">
                     <h3 class="menu-title">Menu</h3>
                     <li>
-                        <a href="{{ route('dash.admin') }}"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
-                    </li>
-                    <li>
                         <a href="{{ route('permintaan') }}"> <i class="menu-icon fa fa-plus-square"></i>Pemilik Kos</a>
                     </li>
                     <li>
